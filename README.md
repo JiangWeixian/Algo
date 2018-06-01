@@ -5,3 +5,4 @@
 
 
 * [kata](www.codewars.com) - 编程挑战
+* [牛客网JS基础测试](https://www.nowcoder.com/activity/oj) - 不支持ES6也是厉害
