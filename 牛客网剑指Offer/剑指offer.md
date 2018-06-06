@@ -25,7 +25,7 @@
 
 ## 树的高度
 
-[deepthOfTree]()
+[deepthOfTree](https://github.com/JiangWeixian/Algo/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%91%E5%89%91%E6%8C%87Offer/es6/deepthOfTree.js)
 
 输入的第一行表示节点的个数n（1 ≤ n ≤ 1000，节点的编号为0到n-1）组成，
 
