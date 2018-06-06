@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel sword2offer/es6 -d sword2offer/es5"
+    "babel": "babel 牛客网剑指Offer/es6 -d 牛客网剑指Offer/es5"
   },
   "author": "",
   "license": "ISC",
