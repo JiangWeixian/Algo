@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel 牛客网剑指Offer/es6 -d 牛客网剑指Offer/es5"
+    "babel": "babel 牛客网2017年校招真题/es6 -d 牛客网2017年校招真题/es5"
   },
   "author": "",
   "license": "ISC",
