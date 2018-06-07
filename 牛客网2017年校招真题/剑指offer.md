@@ -64,7 +64,7 @@
 
 ## 手机号分身 
 
-[phonealias]()
+[phonealias](https://github.com/JiangWeixian/Algo/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%912017%E5%B9%B4%E6%A0%A1%E6%8B%9B%E7%9C%9F%E9%A2%98/es6/phoneAlias.js)
 
 继MIUI8推出手机分身功能之后，MIUI9计划推出一个电话号码分身的功能：首先将电话号码中的每个数字加上8取个位，然后使用对应的大写字母代替 （"ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"）， 然后随机打乱这些字母，所生成的字符串即为电话号码对应的分身。
 
