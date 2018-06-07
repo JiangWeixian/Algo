@@ -98,7 +98,7 @@ OHEWTIEGTHENRTEO
 
 ## 水仙花数
 
-* [getDaffodils]()
+* [getDaffodils](https://github.com/JiangWeixian/Algo/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%912017%E5%B9%B4%E6%A0%A1%E6%8B%9B%E7%9C%9F%E9%A2%98/es6/getDaffodils.js)
 * [维基百科解释水仙花数](https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0)
 
 对于每个测试实例，要求输出所有在给定范围内的水仙花数，就是说，输出的水仙花数必须大于等于m,并且小于等于n，如果有多个，则要求从小到大排列在一行内输出，之间用一个空格隔开;
@@ -118,7 +118,7 @@ no
 
 把数字像字符串一样分割，然后计算这些是否相等都不是很难。
 
-水仙花难得在优化。这个题目只有`1000`以为，计算量不是很大。
+水仙花难得在优化。这个题目只有`1000`以为，计算量不是很大。  
 
 * 可以缓存每一个位置的次幂值。
 
