@@ -127,7 +127,7 @@ no
 
 ## 数列和
 
-[sequenceSum]()
+[sequenceSum](https://github.com/JiangWeixian/Algo/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%912017%E5%B9%B4%E6%A0%A1%E6%8B%9B%E7%9C%9F%E9%A2%98/es6/sequenceSum.js)
 
 数列的第一项为n，以后各项为前一项的平方根，求数列的前m项的和。
 
