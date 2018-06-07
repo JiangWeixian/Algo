@@ -53,7 +53,7 @@
 
 ## 句子反转
 
-[reverseSentence]()
+[reverseSentence](https://github.com/JiangWeixian/Algo/blob/master/%E7%89%9B%E5%AE%A2%E7%BD%912017%E5%B9%B4%E6%A0%A1%E6%8B%9B%E7%9C%9F%E9%A2%98/es6/reverseSentence.js)
 
 输入`hello xiao mi`，输出`mi xiao hello`
 
