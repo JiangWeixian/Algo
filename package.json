@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel 牛客网2017年校招真题/es6 -d 牛客网2017年校招真题/es5"
+    "babel-2017": "babel 牛客网2017年校招真题/es6 -d 牛客网2017年校招真题/es5",
+    "babel-sword2offer": "babel Sword2offer/CH2-编程题目-基础部分/ES6 -d Sword2offer/CH2-编程题目-基础部分/ES5"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
