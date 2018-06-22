@@ -4,8 +4,10 @@ let LinkedList = function () {
     this.value = value
     this.next = null
   }
+  // 递归方法变为私有方法
   function rPrint (root, callback) {
     if (root) {
+      // 直到链表末尾才进行操作
       if (root.next) {
         rPrint(root.next, callback)
       }
@@ -18,6 +20,7 @@ let LinkedList = function () {
     } else {
       let item = new Item(value),
         current = head
+      // 找到末尾节点
       while (current.next) {
         current = current.next
       }
