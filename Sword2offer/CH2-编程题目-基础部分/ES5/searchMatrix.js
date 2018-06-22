@@ -5,11 +5,13 @@ var quickSearch = function quickSearch(arr, target) {
       cols = arr[0].length;
   var start = 0,
       end = cols - 1;
+  // 关键在于每次选择缩小范围后的右上角数字
   while (start < rows && end > -1) {
-    console.log(start, end);
     if (arr[start][end] > target) {
+      // 如果大于就右移指针
       end -= 1;
     } else if (arr[start][end] < target) {
+      // 如果小于就下移指针
       start += 1;
     } else {
       return true;
