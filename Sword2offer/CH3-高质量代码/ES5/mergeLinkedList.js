@@ -93,4 +93,3 @@ linkedListB.push(8);
 var linkedList = new LinkedList();
 linkedList.merge(linkedListA.getHead(), linkedListB.getHead());
 linkedList.print();
-//# sourceMappingURL=mergeLinkedList.js.map

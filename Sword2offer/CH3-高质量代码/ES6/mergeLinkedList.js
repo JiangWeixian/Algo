@@ -42,6 +42,7 @@ let LinkedList = function () {
     let currentA = listA
     let currentB = listB
     let current
+    head = null
     while (currentA && currentB) {
       if (currentA.value < currentB.value) {
         if (!head) {
