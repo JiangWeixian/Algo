@@ -1,4 +1,7 @@
 let exchange = (arr) => {
+  if (!Array.isArray(arr) || arr.length === 0 || arr.length === 1) {
+    return arr
+  }
   let start = 0,
     end = arr.length - 1
   function isOdd (value) {

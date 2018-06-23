@@ -1,4 +1,6 @@
 def exchange(arr):
+  if type(arr) != list or len(arr) == 0 or len(arr) == 1:
+    return arr
   start = 0
   end = len(arr) - 1
   while start <= end:

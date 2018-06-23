@@ -1,6 +1,9 @@
 "use strict";
 
 var exchange = function exchange(arr) {
+  if (!Array.isArray(arr) || arr.length === 0 || arr.length === 1) {
+    return arr;
+  }
   var start = 0,
       end = arr.length - 1;
   function isOdd(value) {
