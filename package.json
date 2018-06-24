@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel-2017": "babel 牛客网2017年校招真题/es6 -d 牛客网2017年校招真题/es5",
-    "babel-sword2offer": "babel Sword2offer/CH3-高质量代码/ES6 -d Sword2offer/CH3-高质量代码/ES5"
+    "babel-sword2offer": "babel Sword2offer/CH4-解题思路/ES6 -d Sword2offer/CH4-解题思路/ES5"
   },
   "author": "",
   "license": "ISC",
