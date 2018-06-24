@@ -5,8 +5,11 @@ let printMatrix = (arr, callback) => {
   let start = 0,
     rows = arr.length,
     cols = arr[0].length
+  // 边界条件随便举例矩形就可以得到
   while (rows >= 2 * start && cols >= 2 * start) {
+    // 打印好一圈之后,矩形上下左右都减少了2
     printMatrixInCircle(arr, start, rows - 2 * start, cols - 2 * start, callback)
+    // 所有圈的起始点都在矩形的对角线上
     start += 1
   }
 }
@@ -16,6 +19,8 @@ let printMatrixInCircle = (circle, start, rows, cols, callback) => {
   let colEnd = start + cols
   let rowStart = start
   let rowEnd = start + rows
+  // 以顺时针顺序打印,至于每个判断条件可以试着举例不同类型矩形可以得到
+  // 但是每种类型矩形需要都按照同一个原则
   if (cols > 1) {
     printRowL2R(circle, rowStart, colStart, colEnd - 1, callback)
   }
@@ -50,6 +55,7 @@ let printColT2B = (circle, col, start, end, callback) => {
   }
 }
 
+// 从右边到左边
 let printColR2L = (circle, row, start, end, callback) => {
   if (start === end) {
     callback(circle[row][start])
@@ -59,6 +65,7 @@ let printColR2L = (circle, row, start, end, callback) => {
   }
 }
 
+// 从下到上
 let printColB2T = (circle, col, start, end, callback) => {
   if (start === end) {
     callback(circle[start][col])
