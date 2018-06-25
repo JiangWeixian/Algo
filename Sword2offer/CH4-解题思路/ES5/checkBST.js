@@ -56,6 +56,7 @@ var recursiveCheck = function recursiveCheck(arr) {
 };
 
 var check = function check(arr) {
+  // 小于3个的数组一定可以构成bst
   if (!Array.isArray(arr) || arr.length < 2) {
     return true;
   }
