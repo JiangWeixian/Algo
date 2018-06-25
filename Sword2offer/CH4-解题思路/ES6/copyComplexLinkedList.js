@@ -27,6 +27,7 @@ class LinkedList {
 
 let copy = (listA, listB) => {
   let current = listA.head
+  // 第一步复制next
   while (current) {
     let cloneNode = new Node(current.value)
     let nextNode = current.next
@@ -34,6 +35,7 @@ let copy = (listA, listB) => {
     cloneNode.next = nextNode
     current = current.next.next
   }
+  // 重新移动指针，复制slibing
   current = listA.head
   while (current) {
     if (current.slibing) {
@@ -44,6 +46,7 @@ let copy = (listA, listB) => {
     }
     current = current.next.next
   }
+  // 断开和clonenode的连接
   current = listA.head
   listB.setHead(current.next)
   while (current) {
