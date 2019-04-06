@@ -93,7 +93,10 @@ var RouterGenerator = /** @class */ (function (_super) {
                 else {
                     var key = Object.keys(f)[0];
                     var firstLevelRoute = exports.createRouterUrl(_this.abs2rel(key, _this.folderPath + '/'));
-                    routes[firstLevelRoute] = _this.getChildRoutes(f, key);
+                    var childRoutes = _this.getChildRoutes(f, key);
+                    if (!isEmpty_1.default(childRoutes)) {
+                        routes[firstLevelRoute] = childRoutes;
+                    }
                 }
             });
             _this.routes = routes;

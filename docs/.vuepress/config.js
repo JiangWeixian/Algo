@@ -16,6 +16,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var router_1 = __importDefault(require("../utils/router"));
 var project_constants_1 = require("../constants/project.constants");
+console.log(router_1.default.routes);
 module.exports = {
     title: 'JS-Tips',
     base: project_constants_1.REPO_NAME ? "/" + project_constants_1.REPO_NAME + "/" : undefined,
