@@ -1,15 +1,18 @@
 {
-  "name": "nodelearning",
+  "name": "algo",
   "version": "1.0.0",
-  "description": "",
+  "description": "a algo project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel-2017": "babel 牛客网2017年校招真题/es6 -d 牛客网2017年校招真题/es5",
-    "babel-sword2offer": "babel Sword2offer/CH4-解题思路/ES6 -d Sword2offer/CH4-解题思路/ES5"
+    "babel-sword2offer": "babel Sword2offer/CH4-解题思路/ES6 -d Sword2offer/CH4-解题思路/ES5",
+    "prebuild": "tsc -p tsconfig.json && node docs/Menus/generator.js && node -r tsconfig-paths/register docs/.vuepress/config.js",
+    "dev": "npm run prebuild && npx vuepress dev docs",
+    "build": "npm run prebuild && npx vuepress build docs"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "JW",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
@@ -21,6 +24,15 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0"
+    "eslint-plugin-standard": "^3.1.0",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.0",
+    "lodash": "^4.17.11",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.4.1",
+    "vuepress": "^0.14.10"
+  },
+  "dependencies": {
+    "markdown-it-task-checkbox": "^1.0.6"
   }
 }
